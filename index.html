@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <style>
-        h1 { color:#025157; }
-        h4 { color:#46484c; }
-        button {color:#025157; }
-    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Conectamos HTML con nuestro CSS-->
+    <link rel="stylesheet" href="styles.css">
     <title>Matcha</title>
 </head>
 <body>
     <!--Color del fondo de la página-->
-    <body style="background-color:#fffbf7;">
+    <body style="background-color:#F2E3E0;">
     </body>
     <h1> Crea tu blog. Desarrolle su negocio. </h1>
     <h4>
@@ -27,12 +24,12 @@
         </button>
       </form>
       <br/>
-      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png">
+      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" alt="imagenCapterra">
       <br/>
       <!--Mi formulario reto-04-->
       <form>
           <p>
-            <label for="nombres">Nombres: </label>
+            <label for="nombre">Nombre: </label>
             <input type="text" name="nombre" id="nombre">
             <br/> <br/>
             <label for="apellidos">Apellido: </label>
@@ -44,8 +41,11 @@
             <label for="email">Email: </label>
             <input type="text" name="email" id="email">
             <br/> <br/>
+            <label for="password">Contraseña: </label>
+            <input type="password" name="password" id="password">
+            <br/> <br/>
             <input type="submit" value="Enviar">
-            <input type="reset">
+            <input type="reset" value="Borrar">
           </p>
       </form>
 
