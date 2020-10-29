@@ -37,6 +37,10 @@ li {
     margin-right: 25px;
     margin-left: 25px;
   }
+
+  .menu-item a {
+    color: #025157;
+  }
   
   .actions {
     width: 15%;
