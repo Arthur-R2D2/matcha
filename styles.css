@@ -6,6 +6,18 @@ button {color:#000204; }
 li {
     display: inline;
   }
+  /* Hacer barra de navegación fija*/
+  .fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  /* CONTENIDO PRINCIPAL*/
+  main {
+    margin-top: 140px;
+    text-align: center;
+  }
   .header {
     margin-top: 40px;
     margin-left: 20px;
@@ -66,4 +78,61 @@ li {
     padding-bottom: 12px;
     border: 0;
     border-radius: 5px;
+  }
+  .promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+  }
+
+  /* PUBLICIDAD */
+  .publish {
+    margin-left: 50px;
+    
+  }
+  
+  .publish h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+  }
+  
+  .publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .publish > form {
+    display: flex;
+  }
+  
+  .publish > form p {
+    color: #025157;
+    margin-right: 18px;
+  }
+
+    /* BOTONES DE PUBLICIDAD */
+  .actions2 button {
+    color: white;
+    background-color: #025157;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+  }
+  .explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
   }
