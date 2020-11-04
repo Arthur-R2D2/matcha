@@ -12,6 +12,8 @@ li {
     top: 0;
     left: 0;
     right: 0;
+    /* COLOR DE LA BARRA DE NAVEGACIÓN*/
+    background-color: #fffbf7;
   }
   /* CONTENIDO PRINCIPAL*/
   main {
