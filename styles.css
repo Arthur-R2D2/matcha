@@ -79,10 +79,11 @@ li {
     border: 0;
     border-radius: 5px;
   }
+  /*FORMATO DE LA PROMO A LADO DEL VIDEO*/
   .promo {
     display: flex;
-    width: 70%;
-    margin: 100px auto;
+    width: 80%;
+    margin: 50px auto;
     align-items: center;
   }
 
